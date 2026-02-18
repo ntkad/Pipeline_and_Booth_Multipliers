@@ -1,0 +1,489 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : booth_mult_16bit
+Version: O-2018.06-SP1
+Date   : Fri Feb 13 15:02:54 2026
+****************************************
+
+Operating Conditions: slow   Library: IBM_CMOS8HP_SS125
+Wire Load Model Mode: enclosed
+
+  Startpoint: m_reg_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_reg_reg[32]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+  booth_mult_16bit_DW01_add_0
+                     500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.500      0.500
+  m_reg_reg[0]/CLK (DFFR_K)                              0.000      0.500 r
+  m_reg_reg[0]/QBAR (DFFR_K)                             0.235      0.735 r
+  U475/Z (INVERT_I)                                      0.045      0.780 f
+  add_58/B[0] (booth_mult_16bit_DW01_add_0)              0.000      0.780 f
+  add_58/U4/Z (AND2_H)                                   0.082      0.862 f
+  add_58/U2/Z (BUFFER_H)                                 0.064      0.925 f
+  add_58/U1_1/COUT (ADDF_B)                              0.347      1.272 f
+  add_58/U1_2/COUT (ADDF_B)                              0.396      1.668 f
+  add_58/U1_3/COUT (ADDF_B)                              0.396      2.063 f
+  add_58/U1_4/COUT (ADDF_B)                              0.396      2.459 f
+  add_58/U1_5/COUT (ADDF_B)                              0.396      2.855 f
+  add_58/U1_6/COUT (ADDF_B)                              0.396      3.250 f
+  add_58/U1_7/COUT (ADDF_B)                              0.396      3.646 f
+  add_58/U1_8/COUT (ADDF_B)                              0.396      4.041 f
+  add_58/U1_9/COUT (ADDF_B)                              0.396      4.437 f
+  add_58/U1_10/COUT (ADDF_B)                             0.396      4.833 f
+  add_58/U1_11/COUT (ADDF_B)                             0.396      5.228 f
+  add_58/U1_12/COUT (ADDF_B)                             0.396      5.624 f
+  add_58/U1_13/COUT (ADDF_B)                             0.396      6.020 f
+  add_58/U1_14/COUT (ADDF_B)                             0.386      6.406 f
+  add_58/U3/Z (XNOR3_D)                                  0.169      6.574 r
+  add_58/U6/Z (INVERT_D)                                 0.063      6.637 f
+  add_58/U1/Z (INVERT_E)                                 0.061      6.698 r
+  add_58/U5/Z (INVERT_H)                                 0.036      6.734 f
+  add_58/SUM[15] (booth_mult_16bit_DW01_add_0)           0.000      6.734 f
+  U21/Z (AOI22_C)                                        0.098      6.832 r
+  U392/Z (INVERT_H)                                      0.062      6.894 f
+  U224/Z (NOR2_D)                                        0.065      6.959 r
+  U222/Z (INVERT_C)                                      0.071      7.030 f
+  shift_reg_reg[32]/D (DFFR_E)                           0.000      7.030 f
+  data arrival time                                                 7.030
+
+  clock clk (rise edge)                                 10.000     10.000
+  clock network delay (ideal)                            0.500     10.500
+  clock uncertainty                                     -1.200      9.300
+  shift_reg_reg[32]/CLK (DFFR_E)                         0.000      9.300 r
+  library setup time                                    -0.239      9.061
+  data required time                                                9.061
+  --------------------------------------------------------------------------
+  data required time                                                9.061
+  data arrival time                                                -7.030
+  --------------------------------------------------------------------------
+  slack (MET)                                                       2.031
+
+
+  Startpoint: shift_reg_reg[17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_reg_reg[32]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+  booth_mult_16bit_DW01_add_0
+                     500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.500      0.500
+  shift_reg_reg[17]/CLK (DFFR_K)                         0.000      0.500 r
+  shift_reg_reg[17]/Q (DFFR_K)                           0.175      0.675 f
+  U494/Z (INVERT_H)                                      0.052      0.726 r
+  U186/Z (INVERT_K)                                      0.048      0.774 f
+  add_58/A[0] (booth_mult_16bit_DW01_add_0)              0.000      0.774 f
+  add_58/U4/Z (AND2_H)                                   0.075      0.849 f
+  add_58/U2/Z (BUFFER_H)                                 0.064      0.913 f
+  add_58/U1_1/COUT (ADDF_B)                              0.347      1.259 f
+  add_58/U1_2/COUT (ADDF_B)                              0.396      1.655 f
+  add_58/U1_3/COUT (ADDF_B)                              0.396      2.051 f
+  add_58/U1_4/COUT (ADDF_B)                              0.396      2.446 f
+  add_58/U1_5/COUT (ADDF_B)                              0.396      2.842 f
+  add_58/U1_6/COUT (ADDF_B)                              0.396      3.238 f
+  add_58/U1_7/COUT (ADDF_B)                              0.396      3.633 f
+  add_58/U1_8/COUT (ADDF_B)                              0.396      4.029 f
+  add_58/U1_9/COUT (ADDF_B)                              0.396      4.424 f
+  add_58/U1_10/COUT (ADDF_B)                             0.396      4.820 f
+  add_58/U1_11/COUT (ADDF_B)                             0.396      5.216 f
+  add_58/U1_12/COUT (ADDF_B)                             0.396      5.611 f
+  add_58/U1_13/COUT (ADDF_B)                             0.396      6.007 f
+  add_58/U1_14/COUT (ADDF_B)                             0.386      6.393 f
+  add_58/U3/Z (XNOR3_D)                                  0.169      6.562 r
+  add_58/U6/Z (INVERT_D)                                 0.063      6.624 f
+  add_58/U1/Z (INVERT_E)                                 0.061      6.685 r
+  add_58/U5/Z (INVERT_H)                                 0.036      6.721 f
+  add_58/SUM[15] (booth_mult_16bit_DW01_add_0)           0.000      6.721 f
+  U21/Z (AOI22_C)                                        0.098      6.819 r
+  U392/Z (INVERT_H)                                      0.062      6.881 f
+  U224/Z (NOR2_D)                                        0.065      6.946 r
+  U222/Z (INVERT_C)                                      0.071      7.017 f
+  shift_reg_reg[32]/D (DFFR_E)                           0.000      7.017 f
+  data arrival time                                                 7.017
+
+  clock clk (rise edge)                                 10.000     10.000
+  clock network delay (ideal)                            0.500     10.500
+  clock uncertainty                                     -1.200      9.300
+  shift_reg_reg[32]/CLK (DFFR_E)                         0.000      9.300 r
+  library setup time                                    -0.239      9.061
+  data required time                                                9.061
+  --------------------------------------------------------------------------
+  data required time                                                9.061
+  data arrival time                                                -7.017
+  --------------------------------------------------------------------------
+  slack (MET)                                                       2.044
+
+
+  Startpoint: m_reg_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_reg_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+  booth_mult_16bit_DW01_add_0
+                     500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.500      0.500
+  m_reg_reg[0]/CLK (DFFR_K)                              0.000      0.500 r
+  m_reg_reg[0]/QBAR (DFFR_K)                             0.235      0.735 r
+  U475/Z (INVERT_I)                                      0.045      0.780 f
+  add_58/B[0] (booth_mult_16bit_DW01_add_0)              0.000      0.780 f
+  add_58/U4/Z (AND2_H)                                   0.082      0.862 f
+  add_58/U2/Z (BUFFER_H)                                 0.064      0.925 f
+  add_58/U1_1/COUT (ADDF_B)                              0.347      1.272 f
+  add_58/U1_2/COUT (ADDF_B)                              0.396      1.668 f
+  add_58/U1_3/COUT (ADDF_B)                              0.396      2.063 f
+  add_58/U1_4/COUT (ADDF_B)                              0.396      2.459 f
+  add_58/U1_5/COUT (ADDF_B)                              0.396      2.855 f
+  add_58/U1_6/COUT (ADDF_B)                              0.396      3.250 f
+  add_58/U1_7/COUT (ADDF_B)                              0.396      3.646 f
+  add_58/U1_8/COUT (ADDF_B)                              0.396      4.041 f
+  add_58/U1_9/COUT (ADDF_B)                              0.396      4.437 f
+  add_58/U1_10/COUT (ADDF_B)                             0.396      4.833 f
+  add_58/U1_11/COUT (ADDF_B)                             0.396      5.228 f
+  add_58/U1_12/COUT (ADDF_B)                             0.396      5.624 f
+  add_58/U1_13/COUT (ADDF_B)                             0.396      6.020 f
+  add_58/U1_14/COUT (ADDF_B)                             0.386      6.406 f
+  add_58/U3/Z (XNOR3_D)                                  0.169      6.574 r
+  add_58/U6/Z (INVERT_D)                                 0.063      6.637 f
+  add_58/U1/Z (INVERT_E)                                 0.061      6.698 r
+  add_58/U5/Z (INVERT_H)                                 0.036      6.734 f
+  add_58/SUM[15] (booth_mult_16bit_DW01_add_0)           0.000      6.734 f
+  U21/Z (AOI22_C)                                        0.098      6.832 r
+  U392/Z (INVERT_H)                                      0.062      6.894 f
+  U393/Z (INVERT_H)                                      0.039      6.932 r
+  U20/Z (NAND2_D)                                        0.050      6.982 f
+  shift_reg_reg[31]/D (DFFR_K)                           0.000      6.982 f
+  data arrival time                                                 6.982
+
+  clock clk (rise edge)                                 10.000     10.000
+  clock network delay (ideal)                            0.500     10.500
+  clock uncertainty                                     -1.200      9.300
+  shift_reg_reg[31]/CLK (DFFR_K)                         0.000      9.300 r
+  library setup time                                    -0.227      9.073
+  data required time                                                9.073
+  --------------------------------------------------------------------------
+  data required time                                                9.073
+  data arrival time                                                -6.982
+  --------------------------------------------------------------------------
+  slack (MET)                                                       2.091
+
+
+  Startpoint: shift_reg_reg[17]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_reg_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+  booth_mult_16bit_DW01_add_0
+                     500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.500      0.500
+  shift_reg_reg[17]/CLK (DFFR_K)                         0.000      0.500 r
+  shift_reg_reg[17]/Q (DFFR_K)                           0.175      0.675 f
+  U494/Z (INVERT_H)                                      0.052      0.726 r
+  U186/Z (INVERT_K)                                      0.048      0.774 f
+  add_58/A[0] (booth_mult_16bit_DW01_add_0)              0.000      0.774 f
+  add_58/U4/Z (AND2_H)                                   0.075      0.849 f
+  add_58/U2/Z (BUFFER_H)                                 0.064      0.913 f
+  add_58/U1_1/COUT (ADDF_B)                              0.347      1.259 f
+  add_58/U1_2/COUT (ADDF_B)                              0.396      1.655 f
+  add_58/U1_3/COUT (ADDF_B)                              0.396      2.051 f
+  add_58/U1_4/COUT (ADDF_B)                              0.396      2.446 f
+  add_58/U1_5/COUT (ADDF_B)                              0.396      2.842 f
+  add_58/U1_6/COUT (ADDF_B)                              0.396      3.238 f
+  add_58/U1_7/COUT (ADDF_B)                              0.396      3.633 f
+  add_58/U1_8/COUT (ADDF_B)                              0.396      4.029 f
+  add_58/U1_9/COUT (ADDF_B)                              0.396      4.424 f
+  add_58/U1_10/COUT (ADDF_B)                             0.396      4.820 f
+  add_58/U1_11/COUT (ADDF_B)                             0.396      5.216 f
+  add_58/U1_12/COUT (ADDF_B)                             0.396      5.611 f
+  add_58/U1_13/COUT (ADDF_B)                             0.396      6.007 f
+  add_58/U1_14/COUT (ADDF_B)                             0.386      6.393 f
+  add_58/U3/Z (XNOR3_D)                                  0.169      6.562 r
+  add_58/U6/Z (INVERT_D)                                 0.063      6.624 f
+  add_58/U1/Z (INVERT_E)                                 0.061      6.685 r
+  add_58/U5/Z (INVERT_H)                                 0.036      6.721 f
+  add_58/SUM[15] (booth_mult_16bit_DW01_add_0)           0.000      6.721 f
+  U21/Z (AOI22_C)                                        0.098      6.819 r
+  U392/Z (INVERT_H)                                      0.062      6.881 f
+  U393/Z (INVERT_H)                                      0.039      6.920 r
+  U20/Z (NAND2_D)                                        0.050      6.969 f
+  shift_reg_reg[31]/D (DFFR_K)                           0.000      6.969 f
+  data arrival time                                                 6.969
+
+  clock clk (rise edge)                                 10.000     10.000
+  clock network delay (ideal)                            0.500     10.500
+  clock uncertainty                                     -1.200      9.300
+  shift_reg_reg[31]/CLK (DFFR_K)                         0.000      9.300 r
+  library setup time                                    -0.227      9.073
+  data required time                                                9.073
+  --------------------------------------------------------------------------
+  data required time                                                9.073
+  data arrival time                                                -6.969
+  --------------------------------------------------------------------------
+  slack (MET)                                                       2.104
+
+
+  Startpoint: m_reg_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: shift_reg_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+  booth_mult_16bit_DW01_add_0
+                     500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                  0.000      0.000
+  clock network delay (ideal)                            0.500      0.500
+  m_reg_reg[0]/CLK (DFFR_K)                              0.000      0.500 r
+  m_reg_reg[0]/QBAR (DFFR_K)                             0.235      0.735 r
+  U475/Z (INVERT_I)                                      0.045      0.780 f
+  add_58/B[0] (booth_mult_16bit_DW01_add_0)              0.000      0.780 f
+  add_58/U4/Z (AND2_H)                                   0.082      0.862 f
+  add_58/U2/Z (BUFFER_H)                                 0.064      0.925 f
+  add_58/U1_1/COUT (ADDF_B)                              0.347      1.272 f
+  add_58/U1_2/COUT (ADDF_B)                              0.396      1.668 f
+  add_58/U1_3/COUT (ADDF_B)                              0.396      2.063 f
+  add_58/U1_4/COUT (ADDF_B)                              0.396      2.459 f
+  add_58/U1_5/COUT (ADDF_B)                              0.396      2.855 f
+  add_58/U1_6/COUT (ADDF_B)                              0.396      3.250 f
+  add_58/U1_7/COUT (ADDF_B)                              0.396      3.646 f
+  add_58/U1_8/COUT (ADDF_B)                              0.396      4.041 f
+  add_58/U1_9/COUT (ADDF_B)                              0.396      4.437 f
+  add_58/U1_10/COUT (ADDF_B)                             0.396      4.833 f
+  add_58/U1_11/COUT (ADDF_B)                             0.396      5.228 f
+  add_58/U1_12/COUT (ADDF_B)                             0.396      5.624 f
+  add_58/U1_13/COUT (ADDF_B)                             0.396      6.020 f
+  add_58/U1_14/COUT (ADDF_B)                             0.386      6.406 f
+  add_58/U3/Z (XNOR3_D)                                  0.181      6.587 f
+  add_58/U6/Z (INVERT_D)                                 0.064      6.651 r
+  add_58/U1/Z (INVERT_E)                                 0.058      6.709 f
+  add_58/U5/Z (INVERT_H)                                 0.040      6.749 r
+  add_58/SUM[15] (booth_mult_16bit_DW01_add_0)           0.000      6.749 r
+  U21/Z (AOI22_C)                                        0.077      6.827 f
+  U392/Z (INVERT_H)                                      0.070      6.896 r
+  U393/Z (INVERT_H)                                      0.033      6.929 f
+  U20/Z (NAND2_D)                                        0.064      6.994 r
+  shift_reg_reg[31]/D (DFFR_K)                           0.000      6.994 r
+  data arrival time                                                 6.994
+
+  clock clk (rise edge)                                 10.000     10.000
+  clock network delay (ideal)                            0.500     10.500
+  clock uncertainty                                     -1.200      9.300
+  shift_reg_reg[31]/CLK (DFFR_K)                         0.000      9.300 r
+  library setup time                                    -0.162      9.138
+  data required time                                                9.138
+  --------------------------------------------------------------------------
+  data required time                                                9.138
+  data arrival time                                                -6.994
+  --------------------------------------------------------------------------
+  slack (MET)                                                       2.144
+
+
+  Startpoint: p_out_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: p_out[3] (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  p_out_reg[3]/CLK (DFFR_K)               0.000      0.500 r
+  p_out_reg[3]/Q (DFFR_K)                 0.268      0.768 r
+  U272/Z (INVERT_H)                       0.032      0.800 f
+  U273/Z (INVERT_H)                       0.044      0.844 r
+  p_out[3] (out)                          0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+  Startpoint: p_out_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: p_out[2] (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  p_out_reg[2]/CLK (DFFR_K)               0.000      0.500 r
+  p_out_reg[2]/Q (DFFR_K)                 0.268      0.768 r
+  U270/Z (INVERT_H)                       0.032      0.800 f
+  U271/Z (INVERT_H)                       0.044      0.844 r
+  p_out[2] (out)                          0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+  Startpoint: p_out_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: p_out[1] (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  p_out_reg[1]/CLK (DFFR_K)               0.000      0.500 r
+  p_out_reg[1]/Q (DFFR_K)                 0.268      0.768 r
+  U268/Z (INVERT_H)                       0.032      0.800 f
+  U269/Z (INVERT_H)                       0.044      0.844 r
+  p_out[1] (out)                          0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+  Startpoint: p_out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: p_out[0] (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  p_out_reg[0]/CLK (DFFR_K)               0.000      0.500 r
+  p_out_reg[0]/Q (DFFR_K)                 0.268      0.768 r
+  U266/Z (INVERT_H)                       0.032      0.800 f
+  U267/Z (INVERT_H)                       0.044      0.844 r
+  p_out[0] (out)                          0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+  Startpoint: done_reg (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: done (output port clocked by v_clk)
+  Path Group: v_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth_mult_16bit   500K_CELLS_6LMC4A     IBM_CMOS8HP_SS125
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                   0.000      0.000
+  clock network delay (ideal)             0.500      0.500
+  done_reg/CLK (DFFR_K)                   0.000      0.500 r
+  done_reg/Q (DFFR_K)                     0.268      0.768 r
+  U264/Z (INVERT_H)                       0.032      0.800 f
+  U265/Z (INVERT_H)                       0.044      0.844 r
+  done (out)                              0.000      0.844 r
+  data arrival time                                  0.844
+
+  clock v_clk (rise edge)                10.000     10.000
+  clock network delay (ideal)             0.000     10.000
+  output external delay                  -3.000      7.000
+  data required time                                 7.000
+  -----------------------------------------------------------
+  data required time                                 7.000
+  data arrival time                                 -0.844
+  -----------------------------------------------------------
+  slack (MET)                                        6.156
+
+
+1

@@ -1,0 +1,45 @@
+ 
+****************************************
+Report : area
+Design : seq_mult_16bit
+Version: O-2018.06-SP1
+Date   : Fri Feb 13 10:28:25 2026
+****************************************
+
+Library(s) Used:
+
+    IBM_CMOS8HP_SS125 (File: /apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/synopsys/ss_125/IBM_CMOS8HP_SS125.db)
+
+Number of ports:                          219
+Number of nets:                          1248
+Number of cells:                         1073
+Number of combinational cells:            978
+Number of sequential cells:                93
+Number of macros/black boxes:               0
+Number of buf/inv:                        645
+Number of references:                      39
+
+Combinational area:              10538.880165
+Buf/Inv area:                     4999.680155
+Noncombinational area:            4955.520027
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 15494.400192
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+seq_mult_16bit                    15494.4002    100.0   8254.0801  4955.5200  0.0000  seq_mult_16bit
+add_49_aco                          641.2800      4.1    641.2800     0.0000  0.0000  seq_mult_16bit_DW01_add_0
+sub_103                            1643.5200     10.6   1643.5200     0.0000  0.0000  seq_mult_16bit_DW01_sub_0
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+Total                                                  10538.8802  4955.5200  0.0000
+
+1

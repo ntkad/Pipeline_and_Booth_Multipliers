@@ -1,0 +1,272 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Feb 13, 2026 at 15:12:45 EST
+xmverilog
+	../testbench/booth_mult_16bit_tb.v
+	+gui
+	+access+r
+	-timescale
+	1ns/1ps
+Recompiling... reason: file '/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf' is newer than expected.
+	expected: Fri Feb 13 10:54:52 2026
+	actual:   Fri Feb 13 15:03:24 2026
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+  DFFR_K \count_reg[1]  ( .D(n193), .CLK(clk), .RN(n541), .Q(n220) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,183|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): QBAR
+
+  DFFR_K \m_reg_reg[15]  ( .D(n190), .CLK(clk), .RN(n540), .QBAR(n222) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,188|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[14]  ( .D(n189), .CLK(clk), .RN(n540), .QBAR(n221) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,189|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[13]  ( .D(n188), .CLK(clk), .RN(n540), .QBAR(n218) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,190|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[12]  ( .D(n187), .CLK(clk), .RN(n541), .QBAR(n217) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,191|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[11]  ( .D(n186), .CLK(clk), .RN(n541), .QBAR(n215) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,192|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[10]  ( .D(n185), .CLK(clk), .RN(n541), .QBAR(n214) );
+                       |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,193|23): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[8]  ( .D(n183), .CLK(clk), .RN(n541), .QBAR(n213) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,196|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[7]  ( .D(n182), .CLK(clk), .RN(n542), .QBAR(n212) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,197|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[6]  ( .D(n181), .CLK(clk), .RN(n542), .QBAR(n211) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,198|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[5]  ( .D(n180), .CLK(clk), .RN(n542), .QBAR(n209) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,199|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[4]  ( .D(n179), .CLK(clk), .RN(n542), .QBAR(n210) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,200|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[3]  ( .D(n178), .CLK(clk), .RN(n542), .QBAR(n206) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,201|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[2]  ( .D(n177), .CLK(clk), .RN(n562), .QBAR(n207) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,202|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[1]  ( .D(n176), .CLK(clk), .RN(n542), .QBAR(n205) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,203|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \m_reg_reg[0]  ( .D(n175), .CLK(clk), .RN(n549), .QBAR(n204) );
+                      |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,204|22): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  DFFR_K \shift_reg_reg[10]  ( .D(n152), .CLK(clk), .RN(n547), .QBAR(n251) );
+                           |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,247|27): 1 output port was not connected:
+xmelab: (/apps/design_kits/ibm_kits/IBM_IP/ibm_cmos8hp/std_cell/sc/v.20110613/verilog/DFFR_K.v,3): Q
+
+  booth_mult_16bit_DW01_sub_0 sub_59 ( .A({n418, n476, n474, n472, n470, n468, 
+                                   |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,320|35): 1 output port was not connected:
+xmelab: (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,8): CO
+
+  booth_mult_16bit_DW01_add_0 add_58 ( .A({n418, n476, n474, n472, n470, n468, 
+                                   |
+xmelab: *W,CUVWSP (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,325|35): 1 output port was not connected:
+xmelab: (/home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.v,69): CO
+
+	Reading SDF file from location "../../synthesis/netlists/booth_mult_16bit.sdf"
+	Compiled SDF file "booth_mult_16bit.sdf.X" older than source SDF file "../../synthesis/netlists/booth_mult_16bit.sdf".
+	Recompiling.
+	Writing compiled SDF file to "booth_mult_16bit.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     booth_mult_16bit.sdf.X
+		Log file:              back_annotate.log
+		Backannotation scope:  booth_mult_16bit_tb.DUT
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.053)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[32]  of module DFFR_E </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 5581>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.done_reg of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6305>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6323>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6341>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6359>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6377>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6395>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6413>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[6]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6431>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[7]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6449>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[8]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6467>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[9]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6485>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[10]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6503>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[11]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6521>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[12]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6539>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[13]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6557>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[14]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6575>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[15]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6593>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[16]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6611>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[17]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6629>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[18]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6647>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[19]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6665>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[20]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6683>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[21]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6701>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[22]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6719>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[23]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6737>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[24]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6755>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[25]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6773>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[26]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6791>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[27]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6809>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[28]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6827>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[29]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6845>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[30]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6863>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\p_out_reg[31]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6881>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6899>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6917>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6935>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6953>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6971>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 6989>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[6]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7007>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[7]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7025>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[8]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7043>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[9]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7061>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[10]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7079>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[11]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7097>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[12]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7115>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[13]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7133>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[14]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7151>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[15]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7169>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[16]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7187>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[17]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7205>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[18]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7223>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[19]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7241>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[20]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7259>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[21]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7277>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[22]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7295>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[23]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7313>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[24]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7331>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[25]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7349>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[26]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7367>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[27]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7385>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[28]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7403>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[29]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7421>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[30]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7439>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\shift_reg_reg[31]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7457>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7475>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7493>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7511>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7529>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7547>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[5]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7565>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[6]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7583>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[7]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7601>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[8]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7619>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[9]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7637>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[10]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7655>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[11]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7673>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[12]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7691>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[13]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7709>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[14]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7727>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\m_reg_reg[15]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7745>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\count_reg[3]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7763>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\count_reg[2]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7781>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\count_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7799>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\count_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7817>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\count_reg[4]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7835>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\state_reg[1]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7853>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (HOLD RN (posedge CLK) (0.047)) of instance booth_mult_16bit_tb.DUT.\state_reg[0]  of module DFFR_K </home/ead/G23328676/ece6214/project3/synthesis/netlists/booth_mult_16bit.sdf, line 7871>.
+	Annotation completed with 0 Errors and 89 Warnings
+	SDF statistics: No. of Pathdelays = 1500  Annotated = 100.00% -- No. of Tchecks = 712  Annotated = 37.50% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        1500	        1500	      100.00
+		      $width	         445	           0	        0.00
+		     $recrem	          89	          89	      100.00
+		  $setuphold	         178	         178	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.booth_mult_16bit:v <0x18092181>
+			streams:   0, words:     0
+		worklib.booth_mult_16bit_tb:v <0x4209d674>
+			streams:   7, words: 14326
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                592      52
+		UDPs:                    89       1
+		Primitives:            1845       5
+		Timing outputs:         705      14
+		Registers:              105      19
+		Scalar wires:           801       -
+		Expanded wires:          32       2
+		Always blocks:            1       1
+		Initial blocks:           3       3
+		Pseudo assignments:       1       1
+		Timing checks:          979      94
+		Interconnect:          1221       6
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.booth_mult_16bit_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm booth_mult_16bit_tb.done booth_mult_16bit_tb.a_in booth_mult_16bit_tb.b_in booth_mult_16bit_tb.clk booth_mult_16bit_tb.error_count booth_mult_16bit_tb.p_out booth_mult_16bit_tb.rst_n booth_mult_16bit_tb.start
+Created probe 1
+xcelium> run
+  PASS  :            p_out    : Expected =           6, Actual =           6, Time =               281000
+--------------------------------------------------
+  PASS  :            p_out    : Expected =         -40, Actual =         -40, Time =               521000
+--------------------------------------------------
+  PASS  :            p_out    : Expected =          25, Actual =          25, Time =               761000
+--------------------------------------------------
+  PASS  :            p_out    : Expected = -1073709056, Actual = -1073709056, Time =              1001000
+--------------------------------------------------
+  PASS  :            p_out    : Expected =           0, Actual =           0, Time =              1241000
+--------------------------------------------------
+
+
+----------SIMULATION PASSED----------
+----------BOOTH RTL SIMULATION-------
+
+
+Simulation complete via $finish(1) at time 1291 NS + 0
+../testbench/booth_mult_16bit_tb.v:177        $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xmverilog	17.10-s001: Exiting on Feb 13, 2026 at 15:24:12 EST  (total: 00:11:27)

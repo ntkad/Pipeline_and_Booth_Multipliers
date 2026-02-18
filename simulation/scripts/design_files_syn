@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# list of design files to be compiled
+
+ver_files=("../../synthesis/netlists/booth_mult_16bit.v"
+	  "../testbench/booth_mult_16bit_tb.v")	
